@@ -6,9 +6,9 @@
 }
 
 body {
-    padding-top: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 .page-header {
@@ -19,10 +19,11 @@ body {
 /* Navegation */
 
 .title {
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     font-family: sans-serif;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 
 .nav {
@@ -40,7 +41,7 @@ body {
 .nav li a {
     text-decoration: none;
     color: black;
-    font-size: 10px;
+    font-size: 15px;
     margin-right: 20px;
     color: rgb(147, 147, 147);
 }
@@ -71,11 +72,15 @@ hr {
 
 /* Main */
 main {
-    margin-top: 40px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
 }
 
 .gallery {
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 20px;
     border: 1px solid rgb(255, 255, 255);
     float: left;
@@ -88,15 +93,15 @@ main {
 }
 
 .gallery img {
-    width: 265px;
-    height: 250px;
+    width: 381px;
+    height: 366px;
     object-fit: cover;
 }
 
 .description {
     text-align: center;
     height: 20px;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 
@@ -111,13 +116,13 @@ footer {
     margin: 20px;
     text-align: center;
     color: rgb(164, 164, 164);
-    font-size: 12px;
+    font-size: 15px;
 }
 .links a {
     margin: 0 8px;
 }
 .links a i {
-    font-size: 25px;
+    font-size: 35px;
     color: rgb(164, 164, 164);
     margin: 10px 0;
 }

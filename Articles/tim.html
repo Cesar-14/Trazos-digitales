@@ -42,13 +42,10 @@
         .gallery img {
             display: block;
             width: auto;
-            height: 600px;
+            height: 450px;
             object-fit: contain;
             border-radius: 10px;
             margin-bottom: 20px;
-        }
-        .desc {
-            margin-top: 20px;
         }
         .title {
             margin-bottom: 20px;
@@ -62,6 +59,8 @@
             margin-right: 110px;
             margin-top: 30px;
             margin-bottom: 50px;
+            display: flex;
+            justify-content: space-around;
         }
         .process {
             display: inline-block;
@@ -74,22 +73,28 @@
             position: relative;
             font-size: 25px;
         }
-        .process-img {
+        .process img {
             width: auto;
-            height: 450px;
+            height: 300px;
             object-fit: contain;
             border-radius: 10px;
             margin-right: 40px;
         }
-        .desc {
-            display: inline-block;
+        .desc-1 {
+            margin-top: 20px;
             margin-left: 80px;
-            position: absolute;
+            position: relative;
+        }
+        .desc-2 {
+            margin-top: 20px;
+            margin-left: 80px;
+            position: relative;
         }
         .desc-PR {
             width: 500px;
             text-align: justify;
             margin-bottom: 30px;
+            display: inline-block;
         }
         .desc-pregunta {
             margin-bottom: 7px;
@@ -129,38 +134,33 @@
     <main>
         <!-- Principal Image -->
         <section class="gallery">
-                <img src="https://1.bp.blogspot.com/-x9QtUDVfd7s/YVEUjTex5II/AAAAAAAAAMg/DbB9F5CIPJQCBnxqWlGGMzVPoLzkCy8IQCLcBGAsYHQ/w578-h640/IMG_0043.JPG" 
-                alt="The Office">
+                <img src="https://1.bp.blogspot.com/-mf5rlbpc4W4/YVEUhz7sgGI/AAAAAAAAAMU/hOFSRO4GS5s1zORtW7QmT_JXV1Tg97F4wCLcBGAsYHQ/w640-h360/E2E6F9A0-C622-4142-AE69-78BDEC016503%2B2.JPG">
         </section>
-        <h2 class="title">The Office</h2>
+        <h2 class="title">Tim Rice-Oxley</h2>
         <hr>
 
 
         <!-- Description -->
         <div class="zona-desc">
-            <article class="process">
-                <h4>Proceso:</h4>
-                <img src="https://1.bp.blogspot.com/-dEFOBQGF41U/YVD4wWZat0I/AAAAAAAAALU/JCfoPUfo2oMVfM8b_X3HBQQQAoLBxfQhQCLcBGAsYHQ/w400-h400/60C58A75-22A3-40D3-89D2-E4434B37F5FE.JPG" 
-                class="process-img"
-                alt="Proceso">
-            </article>
     
-            <article class="desc">
+            <article class="desc-1">
                 <div class="desc-PR">
                     <h4 class="desc-pregunta">Fecha de creación:</h4>
-                    <p class="desc-respuesta">23/01/21</p>
+                    <p class="desc-respuesta">31/01/21</p>
                 </div>
                 <div class="desc-PR">
                     <h4 class="desc-pregunta">Inspirado en:</h4>
-                    <p class="desc-respuesta">Portada de la septima temporada de serie "The Office"</p>
+                    <p class="desc-respuesta">Tecladista y compositor del grupo británico Keane</p>
                 </div>
+            </article>
+            <article class="desc-2">
                 <div class="desc-PR">
                     <h4 class="desc-pregunta">Hecho en:</h4>
                     <p class="desc-respuesta">Adobe Photoshop</p>
                 </div>
                 <div class="desc-PR">
                     <h4 class="desc-pregunta">Descripción:</h4>
-                    <p class="desc-respuesta">Una ilustración hecha digitalmente desde Adove Photoshop a partir del diseño de portada de la septima temporada de la serie "The Office".</p>
+                    <p class="desc-respuesta">Una ilustración hecha digitalmente desde Adove Photoshop, basado en el Tecladista de la banda Keane llamado Timothy James Rice-Oxley.</p>
                 </div>
             </article>
         </div>
